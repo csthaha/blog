@@ -12,6 +12,6 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-## Customize configuration
+<!-- ## Customize configuration -->
 
 <!-- See [Vite Configuration Reference](https://vitejs.dev/config/). -->
