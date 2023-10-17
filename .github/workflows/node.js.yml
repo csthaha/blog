@@ -36,7 +36,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ALIYUN }}
           ARGS: '-rltgoDzv0 --delete --vv'
-          SOURCE: '/'
+          SOURCE: 'dist/'
           REMOTE_HOST: '39.107.118.88'
           REMOTE_USER: 'root'
           TARGET: '/usr/share/nginx/blog/'
