@@ -33,8 +33,8 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.0.7
         env:
           SSH_PRIVATE_KEY: ${{ secrets.ALIYUN }}
-          ARGS: 'rltgoDzv0 --delete'
+          ARGS: '-rltgoDzv0 --delete'
           SOURCE: 'dist/'
-          REMOTE HOST: '39.107.118.88'
-          REMOTE USER: 'root'
+          REMOTE_HOST: '39.107.118.88'
+          REMOTE_USER: 'root'
           TARGET: '/usr/share/nginx/blog/'
